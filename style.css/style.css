@@ -50,11 +50,29 @@ body{
       margin: 0%;
       border-radius: 50%;
   }
+
+  #video{
+    display: block;
+    margin-left: 25%;
+    
+  }
  footer{
    background-image: url(https://scontent.feoh3-1.fna.fbcdn.net/v/t31.0-8/s960x960/20901594_1401851096568867_2030833987390347081_o.jpg?_nc_cat=107&_nc_sid=05277f&_nc_oc=AQl9sPZqMltXFYbIObCr8mnek7-zZ6TJJyx9O_RBm3r4Xa5MptR39dRIWSZRkwAUuKA&_nc_ht=scontent.feoh3-1.fna&_nc_tp=7&oh=1762f1f25a4f3ddf2b0731f44b44fdb9&oe=5E9A2FD0);
- }
-
+   border-style: groove;
+   border-top-left-radius: 25%;
+   margin-top: 5%;
+  }
+.footer_section{
+  display: flex;
+  justify-content: flex-end;
+}
  .container{
    margin-top: 20px;
    margin-bottom: 20px;
+   
+ }
+
+ footer a{
+   display: flex;
+   justify-content: end;
  }
