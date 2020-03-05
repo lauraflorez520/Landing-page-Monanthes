@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Simonetta&display=swap');
+
+body{
+       margin:0px;
+    font-family: 'Simonetta';
+  }
+  
+  header{
+    border-style: double;  
+  }
+
+  
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+  
+    background-color: #880E4F;
+            color: white;
+        align-items: center;
+    font-size: 20px;
+  }
+  .monanthes_image{
+    margin-right: 1%;
+  }
+
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li{
+    padding-left: 20px;
+    list-style: none;  
+  }
+  
+  nav li a{
+    
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav li a:hover{
+    text-decoration: none;
+    color: hotpink;
+  }
+
+  nav img{
+      margin: 0%;
+      border-radius: 50%;
+  }
+ footer{
+   background-image: url(https://scontent.feoh3-1.fna.fbcdn.net/v/t31.0-8/s960x960/20901594_1401851096568867_2030833987390347081_o.jpg?_nc_cat=107&_nc_sid=05277f&_nc_oc=AQl9sPZqMltXFYbIObCr8mnek7-zZ6TJJyx9O_RBm3r4Xa5MptR39dRIWSZRkwAUuKA&_nc_ht=scontent.feoh3-1.fna&_nc_tp=7&oh=1762f1f25a4f3ddf2b0731f44b44fdb9&oe=5E9A2FD0);
+ }
+
+ .container{
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
